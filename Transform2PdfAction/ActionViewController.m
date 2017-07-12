@@ -34,7 +34,7 @@
     self.coverView.hidden = NO;
     
     
-    NSUserDefaults * extensionDefault = [[NSUserDefaults alloc]initWithSuiteName:@"group.com.0101.yetaiwen.Transform2PdfHostApp.Transform2PdfAction"];
+    NSUserDefaults * extensionDefault = [[NSUserDefaults alloc]initWithSuiteName:@"group.com.yetaiwen.Transform2PdfHostApp.Transform2PdfAction"];
     
     NSDateFormatter * dateFormatter = [[NSDateFormatter alloc]init];
     [dateFormatter setDateFormat:@"HHmmss"];
@@ -57,7 +57,7 @@
     
     NSData * data = [self.webPageView pdfDataWithSize:kPaperSizeA4];
     
-    NSURL * storeUrl = [[NSFileManager defaultManager]containerURLForSecurityApplicationGroupIdentifier:@"group.com.0101.yetaiwen.Transform2PdfHostApp.Transform2PdfAction"];
+    NSURL * storeUrl = [[NSFileManager defaultManager]containerURLForSecurityApplicationGroupIdentifier:@"group.com.yetaiwen.Transform2PdfHostApp.Transform2PdfAction"];
     NSURL * fileUrl = [storeUrl URLByAppendingPathComponent:[NSString stringWithFormat:@"%@.PDF",fileName]];
     if (data) {
         [data writeToURL:fileUrl  atomically:YES];

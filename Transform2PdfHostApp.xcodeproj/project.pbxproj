@@ -303,7 +303,7 @@
 				TargetAttributes = {
 					193EF1611F15B40200D423C5 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = 3XE2P5MZFR;
+						DevelopmentTeam = 53KC6D4H8R;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
@@ -325,7 +325,7 @@
 					};
 					193EF19B1F15B43300D423C5 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = 3XE2P5MZFR;
+						DevelopmentTeam = 53KC6D4H8R;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
@@ -587,10 +587,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Transform2PdfHostApp/Transform2PdfHostApp.entitlements;
-				DEVELOPMENT_TEAM = 3XE2P5MZFR;
+				DEVELOPMENT_TEAM = 53KC6D4H8R;
 				INFOPLIST_FILE = Transform2PdfHostApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.0101.yetaiwen.Transform2PdfHostApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yetaiwen.Transform2PdfHostApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -600,10 +601,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Transform2PdfHostApp/Transform2PdfHostApp.entitlements;
-				DEVELOPMENT_TEAM = 3XE2P5MZFR;
+				DEVELOPMENT_TEAM = 53KC6D4H8R;
 				INFOPLIST_FILE = Transform2PdfHostApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.0101.yetaiwen.Transform2PdfHostApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yetaiwen.Transform2PdfHostApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -664,10 +666,11 @@
 				APPLICATION_EXTENSION_API_ONLY = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Transform2PdfAction/Transform2PdfAction.entitlements;
-				DEVELOPMENT_TEAM = 3XE2P5MZFR;
+				DEVELOPMENT_TEAM = 53KC6D4H8R;
 				INFOPLIST_FILE = Transform2PdfAction/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.0101.yetaiwen.Transform2PdfHostApp.Transform2PdfAction;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yetaiwen.Transform2PdfHostApp.Transform2PdfAction;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -679,10 +682,11 @@
 				APPLICATION_EXTENSION_API_ONLY = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Transform2PdfAction/Transform2PdfAction.entitlements;
-				DEVELOPMENT_TEAM = 3XE2P5MZFR;
+				DEVELOPMENT_TEAM = 53KC6D4H8R;
 				INFOPLIST_FILE = Transform2PdfAction/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.0101.yetaiwen.Transform2PdfHostApp.Transform2PdfAction;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yetaiwen.Transform2PdfHostApp.Transform2PdfAction;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -707,6 +711,7 @@
 				193EF1911F15B40200D423C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		193EF1921F15B40200D423C5 /* Build configuration list for PBXNativeTarget "Transform2PdfHostAppTests" */ = {
 			isa = XCConfigurationList;
@@ -715,6 +720,7 @@
 				193EF1941F15B40200D423C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		193EF1951F15B40200D423C5 /* Build configuration list for PBXNativeTarget "Transform2PdfHostAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -723,6 +729,7 @@
 				193EF1971F15B40200D423C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		193EF1A81F15B43300D423C5 /* Build configuration list for PBXNativeTarget "Transform2PdfAction" */ = {
 			isa = XCConfigurationList;
@@ -731,6 +738,7 @@
 				193EF1AA1F15B43300D423C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
