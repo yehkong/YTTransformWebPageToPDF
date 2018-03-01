@@ -1,8 +1,9 @@
-# TransformWebPageToPDF
-将web网页保存为pdf文件
+## TransformWebPageToPDF
+## 将web网页保存为pdf文件
+
+## 以下是我的跟这个工程相关联的博客地址内容，博客地址：[一次iOS Extension(扩展)的实践](https://www.jianshu.com/p/d2dc3c9c2368)
 
 序言：Extension是iOS 8中引入的一个非常重要的新特性,这里记录一次action extension的集成过程。该action extension是把web网页转换成pdf文档并保存到我们自己的App中，功能跟苹果原生的把网页保存pdf到ibooks一样。
-下载Demo-[github地址](https://github.com/yehkong/TransformWebPageToPDF)
 
 集成过程：
 * 1.File -->New -->Target
@@ -66,4 +67,4 @@
 * 8.设置extension 的version必须和host app一致。
 > ![version.png](http://upload-images.jianshu.io/upload_images/2737326-d3fd14be6bd29919.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-总结：action extension主要的集成步骤就是这些，但是实际运用过程中还有很多小细节，具体参见demo-[github地址](https://github.com/yehkong/TransformWebPageToPDF)，可以直接拖入项目简单配置就可以使用该功能。
+总结：action extension主要的集成步骤就是这些，但是实际运用过程中还有很多小细节，具体参见本[工程项目](https://github.com/yehkong/TransformWebPageToPDF)，可以直接拖入项目简单配置就可以使用该功能。
